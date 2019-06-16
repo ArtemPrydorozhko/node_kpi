@@ -22,7 +22,7 @@
   "homepage": "https://github.com/ArtemPrydorozhko/node_kpi#readme",
   "devDependencies": {
     "eslint": "^5.16.0",
-    "now": "^15.0.0"
+    "now": "^14.0.0"
   },
   "dependencies": {}
 }
