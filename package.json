@@ -1,0 +1,19 @@
+{
+  "name": "node_kpi",
+  "version": "1.0.0",
+  "description": "nodejs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ArtemPrydorozhko/node_kpi.git"
+  },
+  "author": "Artem Pr",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ArtemPrydorozhko/node_kpi/issues"
+  },
+  "homepage": "https://github.com/ArtemPrydorozhko/node_kpi#readme"
+}

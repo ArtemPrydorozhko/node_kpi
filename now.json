@@ -1,0 +1,4 @@
+{
+	"name": "node-kpi",
+	"builds": [{ "src": "index.js", "use": "@now/node" }]
+}
