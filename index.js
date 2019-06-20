@@ -8,7 +8,6 @@ bot.hears( 'get',(ctx) => getSchedule(ctx.message.text).then(result => {
         ctx.reply(result);
 }).catch(() => ctx.reply('Error occured')));
 
-bot.startPolling();
 bot.telegram.setWebhook('https://node-kpi-bot.artemap85.now.sh');
 
 module.exports = bot.webhookCallback('/');
