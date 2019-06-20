@@ -24,5 +24,7 @@
     "eslint": "^5.16.0",
     "now": "^14.0.0"
   },
-  "dependencies": {}
+  "dependencies": {
+    "jsdom": "^15.1.1"
+  }
 }
