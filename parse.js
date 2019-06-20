@@ -54,25 +54,26 @@ function parseWeek(week) {
 function formatResult(data, numWeek) {
     let result = '';
     const weekDays = ['Понеділок',"Вівторок","Середа","Четвер","П'ятниця","Субота"];
-    result += '===Week '+numWeek+'===/n';
+    result += '===Week '+numWeek+'===\n';
     for(let i = 0; i < data[0].length; i++)
     {
-        result += '--' + weekDays[i] + '--/n';
+        result += '--' + weekDays[i] + '--\n';
         for(let j =0; j < data.length; j++)
         {
             if(data[j][i].subj == undefined)
             {
-                result += data[j][i].number + './n'
+                result += data[j][i].number + '.\n'
             } else {
-                result += data[j][i].number + data[j][i].subj + '/n';
+                result += data[j][i].number + data[j][i].subj + '\n';
 
                 if(data[j][i].teacher != undefined)
                 {
-                    result += data[j][i].teacher + '/n' + data[j][i].loc +'/n';
+                    result += data[j][i].teacher + '\n' + data[j][i].loc +'\n';
                 }
             }
         }
     }
+    result+='\n';
     return result;
 }
 
