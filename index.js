@@ -9,6 +9,6 @@ bot.hears( 'get',(ctx) => getSchedule(ctx.message.text).then(result => {
     })
     .catch(() => ctx.reply('Error occured')));
 
-bot.telegram.setWebhook('https://node-kpi-bot.artemap85.now.sh');
+bot.telegram.setWebhook('https://node-kpi-bot-git-schedule.artemap85.now.sh');
 
 module.exports = bot.webhookCallback('/');
