@@ -64,7 +64,7 @@ function formatResult(data, numWeek) {
             {
                 result += data[j][i].number + '.\n'
             } else {
-                result += data[j][i].number + data[j][i].subj + '\n';
+                result += data[j][i].number +'. '+ data[j][i].subj + '\n';
 
                 if(data[j][i].teacher != undefined)
                 {
